@@ -1,0 +1,3 @@
+Code Quiz Application
+
+Start with the HTML file displaying the basics (title, the score, timer, welcome messaage, start button).

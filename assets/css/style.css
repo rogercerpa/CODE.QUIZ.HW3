@@ -1,3 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
+	margin: 0;
+	Color: white;
 	background-image: url("../images/gray_sand/gray_sand.png");
 }
+
+/* Header styling, it will include the score and the timer */
