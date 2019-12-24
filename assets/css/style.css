@@ -9,3 +9,11 @@ body {
 }
 
 /* Header styling, it will include the score and the timer */
+#score {
+	float: left;
+	margin: 10px;
+}
+#timer {
+	float: right;
+	margin: 10px;
+}
