@@ -1,3 +1,6 @@
 Code Quiz Application
 
 Start with the HTML file displaying the basics (title, the score, timer, welcome messaage, start button).
+
+start button, add js functionalities (start timer, hide the start button, display the first question)
+

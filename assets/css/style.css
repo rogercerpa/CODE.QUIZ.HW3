@@ -1,19 +1,22 @@
 * {
 	box-sizing: border-box;
+	display: grid;
 }
 
 body {
-	margin: 0;
 	Color: white;
 	background-image: url("../images/gray_sand/gray_sand.png");
 }
 
 /* Header styling, it will include the score and the timer */
+.header-container {
+	width: 100%;
+	grid-column: ;
+}
+
 #score {
-	float: left;
-	margin: 10px;
 }
 #timer {
-	float: right;
-	margin: 10px;
+	text-align: right;
 }
+/* container */

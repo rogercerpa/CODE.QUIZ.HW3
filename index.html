@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <script defer src="assets/js/script.js"></script>
 </head>
 <body>
-    <div class="header">
-                <p id="score">Higher Score</p>     
-                <p id="timer">Timer</p> 
-    </div>
+<header class="container header-container">
+    <div class="row header-row justify-content-between">
+        <div class="col-md-6"> <p id="score">Score</p></div>
+        <div class="col-md-6"><p id="timer"></p></div>
 
-    
+    </div>
+</header>
+
+<div class="container main-container">
+    <div class="row">
+        <div class="col"><button type="button" class="btn btn-primary btn-lg startbutton">Start</button></div>
+    </div>
+</div>
+
 </body>
 </html>
