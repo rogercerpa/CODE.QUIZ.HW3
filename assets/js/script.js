@@ -6,7 +6,8 @@ var secondsLeft = 60;
 var welcometext = document.getElementById('#welcometext');
 var instructiontext = document.getElementById('#instructiontext');
 var startbtn = document.getElementById('#start-button');
-var questions = document.getElementById('.question');
+
+var questions = document.getElementById('#question');
 
 function setTime() {
 	var timerInterval = setInterval(function() {
