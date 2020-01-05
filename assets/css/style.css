@@ -49,3 +49,25 @@ body {
 #start-button {
 	color: white;
 }
+
+.start-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.CountDown {
+	text-align: right;
+	padding: 5px;
+}
+
+.Higherscore {
+	padding: 5px;
+}
+
+.question {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
