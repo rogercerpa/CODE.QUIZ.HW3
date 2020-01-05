@@ -1,27 +1,20 @@
-// var questions = [
-// 	{
-// 		// question: "what js stand for?"
-// 		// answer: "a"
-// 	}
-// ];
+//Timer
+var timerEl = document.querySelector('#timer');
+var mainEl = document.getElementById('main');
+var score = 0;
+var secondsLeft = 60;
+var welcometext = document.getElementById('#welcometext');
+var instructiontext = document.getElementById('#instructiontext');
+var startbtn = document.getElementById('#start-button');
 
-// var score = 0;
+function setTime() {
+	var timerInterval = setInterval(function() {
+		secondsLeft--;
+		timerEl.textContent = 'Timer: ' + secondsLeft;
 
-// for (var i = 0; i < questions.length; i++);
-// {
-// 	var response;
-// }
-
-//start button
-function timer() {
-	var counter = 0;
-	var timer = document.getElementById('#timer');
-	timer.append(counter);
-
-	function timeit() {
-		counter++;
-		timer.append(counter);
-	}
-	setInterval(timeit, 1000);
-	console.log(counter);
+		if (secondsLeft === 0) {
+			clearInterval(timerInterval);
+			Timer();
+		}
+	}, 1000);
 }
