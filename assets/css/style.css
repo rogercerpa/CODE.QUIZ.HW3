@@ -1,8 +1,51 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arvo', serif;
 }
 
 body {
 	Color: white;
 	background-image: url("../images/gray_sand/gray_sand.png");
+}
+
+.header-container {
+	display: flex;
+}
+
+.container {
+	background-color: #7c7d7c;
+	border-radius: 10px 10px;
+	padding: 40px 30px 15px 30px;
+	border: 1px solid #dfdfdf;
+	margin: 20px auto;
+}
+
+.welcome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+.instruction {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+#start-button {
+	color: white;
 }
