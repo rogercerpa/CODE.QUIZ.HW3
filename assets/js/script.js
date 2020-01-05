@@ -18,3 +18,5 @@ function setTime() {
 		}
 	}, 1000);
 }
+
+Timer();
